@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Rastogi - Resume</title>
+    <link rel="stylesheet" href="{% static 'resume/style.css' %}">
+</head>
+<body>
+    <!-- HTML content -->
+    <header>
+        <h1>Shubham Rastogi</h1>
+        <div class="contact-info">
+            shu.rastogi337@gmail.com | sr7421@nyu.edu<br>
+            LinkedIn: <a href="https://www.linkedin.com/in/srastogi97/">https://www.linkedin.com/in/srastogi97/</a> | Github: <a href="https://github.com/SentientRamen12">https://github.com/SentientRamen12</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Education</h2>
+        <p>
+            <strong>New York University, Tandon School of Engineering</strong> <span class="date">New York, NY</span><br>
+            M.S. in Computer Science <span class="date">Sept 2024 – Present</span>
+        </p>
+        <p>
+            <strong>Delhi Technological University</strong> <span class="date">New Delhi, India</span><br>
+            B.Tech in Computer Engineering <span class="date">Aug 2015 – May 2019</span>
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> C++, Python, Golang, Typescript (Nodejs), Java</p>
+        <p><strong>Database:</strong> MySQL, Postgres, BigQuery, MongoDB, ElasticSearch, Redis, VectorDB (Pinecone)</p>
+        <p><strong>Frameworks:</strong> FastAPI, Django, React, Springboot, GraphQL</p>
+        <p><strong>Technologies:</strong> Queues (SQS, RabbitMQ, Kafka), Docker, Kubernetes, Sockets, Kubeflow, Torchx, AWS, GCP</p>
+    </section>
+
+    <section class="section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <p class="experience-header">
+                Wadhwani AI | Building AI Solutions with Social Impact, backed by BMGF, USAID, Google <span class="date">New Delhi, India</span>
+            </p>
+            <p class="experience-title">Tech Lead / Software Development Engineer 3 <span class="date">May 2023 – Aug 2024</span></p>
+            <ul>
+                <li>Led the development of an AI-based oral reading fluency (ORF) solution for assessing and remedying Indic language fluency in public schools across India.</li>
+                <li>Engineered Kubernetes infrastructure with ASR ML pipelines, scaling to 3 million assessments in Gujarat and expanding to additional states, reducing processing latency by 80%.</li>
+                <li>Led a team of four Engineers to build modular, extensible services that empowered cross-platform integrations and seamless experience of schools with low bandwidth connections.</li>
+                <li>Led migration efforts of education infrastructure from AWS to GCP with minimal downtime, leading to a 40% reduction in infrastructure costs.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <p class="experience-header">
+                Ula | Sequoia funded start-up revolutionizing marketplace and B2B E-commerce in Indonesia <span class="date">Bengaluru, India</span>
+            </p>
+            <p class="experience-title">Founding Engineer / Senior Software Engineer <span class="date">Sept 2020 - May 2023</span></p>
+            <ul>
+                <li>Led a team of three engineers in building critical social commerce features and extending the platform to online retailers to manage and fulfill end-customer orders.</li>
+                <li>Augmented existing order, catalog, inventory, and logistics services and create new product listing, discovery, and promotional capabilities, which increased app usage from 10% to 80% and contributed 25% to the monthly GMV.</li>
+                <li>Worked with the Principal Developer to explore solutions to resolve a major optimization issue in order data collation and report generation that blocked key services and impacted order creation and management flows.</li>
+                <li>Developed a data warehouse and data pipeline solution using Golang, Kafka, BigQuery, and GraphQL that collated order data from various microservices and provided capabilities to aggregate and create custom reports. This eliminated downtime issues while improving the report generation time to a few seconds.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <p class="experience-header">
+                Undostres | Building D2C Fintech services for Mexico <span class="date">Gurgaon, India</span>
+            </p>
+            <p class="experience-title">Software Engineer <span class="date">Feb 2019 - Aug 2020</span></p>
+            <ul>
+                <li>Developed database and distributed logging layers of Wallet as a Service product, allowing multi-tenant D2C and B2B capabilities.</li>
+                <li>Implemented payments, chargebacks, and subscription capabilities for digital consumer payments through PayPal and Credit Card merchants.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <p class="experience-header">
+                Pingal Technologies | Building B2B NLP-based data analytics tools. <span class="date">Mumbai, India</span>
+            </p>
+            <p class="experience-title">Software Engineering Intern <span class="date">June 2018 - Aug 2018</span></p>
+            <ul>
+                <li>Engineered an automated real-time customer tracker to measure and evaluate product interest levels in convenience stores by developing a hybrid ML implementation using Yolov3 for multiple human detection and Deep-sort + KLT for multiple object tracking.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Research</h2>
+        <p><strong>A Study on Neural Networks Approach to Time Series Analysis | IEEE ICISC Paper Submission</strong></p>
+        <ul>
+            <li>R. Katarya and S. Rastogi, "A study on neural networks approach to time-series analysis," 2018 2nd International Conference on Inventive Systems and Control (ICISC), Coimbatore, India, 2018, pp. 116-119, doi: 10.1109/ICISC.2018.8399024.</li>
+        </ul>
+
+        <p><strong>LANS Lab Delhi Technological University | Student Researcher (Machine Learning)</strong> <span class="date">Sept 2018 – May 2019</span></p>
+        <ul>
+            <li>The research group focuses on affective computing, medical aid devices, and machine learning applications in epilepsy detection.</li>
+            <li>Implemented a Tensorflow online prediction pipeline that analyzed live EEG data to predict seizures in epileptic patients. Achieved an accuracy of 81% (B.Tech Thesis).</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Activities</h2>
+        <p><strong>Covind</strong></p>
+        <p class="experience-title">Founding Engineer, Volunteer <span class="date">Mar 2021 - June 2021</span></p>
+        <ul>
+            <li>Founding Engineer at Covind, a volunteer organization aimed to connect people with COVID-19 resources (medicine, prescriptions, doctors, hospitals), Impacted about 13K users across Delhi, Bengaluru and Mumbai.</li>
+            <li>Volunteered to collect and verify resources and help make them available during the second wave of Covid 19.</li>
+        </ul>
+    </section>
+</body>
+</html>
